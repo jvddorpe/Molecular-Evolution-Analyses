@@ -1,4 +1,4 @@
-# N.B. Do not run the computational intense analyses in RStudio (e.g., RAxML, MrBayes)
+# N.B. It is better not to run the computational intense analyses in RStudio (e.g., RAxML, MrBayes)
 
 #########################
 # Define useful variables
@@ -24,9 +24,9 @@ library(phangorn)
 library(spatstat)
 library(expm)
 
-###############################
-# Import data (with outgroups!)
-###############################
+#############################################
+# Import DNA sequences (including outgroups!)
+#############################################
 COI.all <- read.dna(file = 'COI.all.fas', format = 'fasta')
 r16S.all <- read.dna(file = '16S.all.fas', format = 'fasta')
 ITS2.all <- read.dna(file = 'ITS2.all.fas', format = 'fasta')
@@ -334,7 +334,7 @@ labels(mt.genes)
 # Infer trees
 #############
 
-### Brute force
+## Brute force
 howmanytrees(length(mt.genes.labels), rooted = FALSE)
 
 ## Evolutionary distances
