@@ -6,6 +6,7 @@ In the context of my Ph.D., I am studying the molecular evolution of the mud sna
 3. *Ecrobia spalatiana* (Ecspa)
 4. *Ecrobia ventrosa* (Ecve)
 5. *Ecrobia truncata* (Ectr)
+
 And two outgroups:
 1. *Peringia ulvae* (Peul)
 2. *Salenthydrobia ferrerii* (Safe)
@@ -16,12 +17,13 @@ And two outgroups:
 My data include two mitochondrial markers:
 1. Cytochrome c oxidase subunit I (COI): 359 individuals
 2. 16S ribosomal RNA (r16S): 74 individuals
-and one nuclear marker:
+
+And one nuclear marker:
 3. Internal transcribed spacer 2 (ITS2): 46 individuals
 
 ## Prerequisites
 
-To estimate maximum likelihood trees with RAxML, the program needs to be previously installed, and the path of the executable needs to be given.
+To estimate maximum likelihood trees with RAxML, this program needs to be previously installed, and the path of the executable needs to be given.
 
 ## Installing
 
@@ -32,24 +34,25 @@ I set the working directory to source file location.
 The whole script is still under progress. The following steps are already included:
 1. Import DNA sequences (including outgroups)
 2. Exploratory data analyses
-..* Base frequency
-..* Base frequency for each individual
-..* Base frequency between genes for all species pooled - WIP
+  * Base frequency
+  * Base frequency for each individual
+  * Base frequency between genes for all species pooled - WIP
 3. Multiple sequence alignment
 4. Best-fit substitution models estimation
 5. Saturation test
 6. Merge the alignments
 7. Infer trees
-..* Brute force
-..* Evolutionary distances
-..* Distance-based phylogenetic methods
-..* Maximum parsimony
-..* Maximum likelihood methods
-..* Bayesian inference
-..* Codon model - WIP
-..* The class 'phylo' - WIP
-..* Visualization methods - WIP
-..* Plot trees - WIP
+  * Brute force
+  * Evolutionary distances
+  * Distance-based phylogenetic methods
+  * Maximum parsimony
+  * Maximum likelihood methods
+  * Bayesian inference
+  * Codon model - WIP
+  * The class 'phylo' - WIP
+  * Visualization methods - WIP
+  * Plot trees - WIP
+
 The following steps are not included yet:
 8. Tree comparison
 9. Bootstrap
