@@ -19,6 +19,7 @@ My data include two mitochondrial markers:
 2. 16S ribosomal RNA (r16S): 74 individuals
 
 And one nuclear marker:
+
 3. Internal transcribed spacer 2 (ITS2): 46 individuals
 
 ## Prerequisites
@@ -54,6 +55,7 @@ The whole script is still under progress. The following steps are already includ
   * Plot trees - WIP
 
 The following steps are not included yet:
+
 8. Tree comparison
 9. Bootstrap
 10. Divergence time estimation
